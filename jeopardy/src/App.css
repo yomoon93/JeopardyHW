@@ -1,0 +1,67 @@
+.answer2{
+  display:none;
+}
+span {
+  color:yellowgreen;
+  font-size: 28px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btnQ{
+  background-color: lime;
+  width: 100px;
+  height:35px;
+  border-radius: 15%;
+  margin:20px
+}
+#Answer{
+  background-color: mediumblue;
+  color: white;
+  width: 350px;
+  height: 60px;
+  font-size: 20px;
+  margin: 20px;;
+
+}
+.words{
+  font-family: fantasy;
+}
+.Play{
+  border: black solid 2px;
+  position: relative;
+  text-align: center;
+}
+.Questions {
+  height: 100vh;
+  border: black 2px solid;
+  position: relative;
+  text-align: center;
+  background-color: salmon;
+}
+#decrease{
+background-color:palevioletred;
+width:80px;
+height:30px;
+border-radius: 10%;
+}
+#decrease:hover{
+  background-color: blueviolet;
+}
+#increase:hover{
+  background-color: blueviolet;
+
+}
+
+
+#increase {
+  background-color: lightskyblue;
+  width:80px;
+  height:30px;
+  margin:20px;
+  border-radius: 10%;
+}
+#reset{
+  width:80px;
+  height:30px;
+  background-color: red;
+  border-radius: 10%;
+}
