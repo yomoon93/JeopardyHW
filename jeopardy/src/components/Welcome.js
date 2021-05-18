@@ -13,10 +13,10 @@ class Welcome extends React.Component{
         this.setState({score:this.state.score = 0})
     }
   
-    increaseB=()=>{
+    increaseB =()=> {
         this.setState({score: this.state.score + this.props.value})
     }
-    decreaseB=()=>{
+    decreaseB = () =>{
         this.setState({score: this.state.score - this.props.value})
     }
 
